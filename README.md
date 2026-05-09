@@ -23,8 +23,8 @@ The primary typing layer.
 |       |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |       |
 |   `   |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   |   \   |
 |   :   |  A  |  S  |  D   |  F   |  G   |                   |  H   |  J    |  K    |  L   |   ;   |   '   |
-|   -   |  Z  |  X  |  C   |  V   |  B   | MO(MS)|  | SL(OB)|  N   |  M    |  ,    |  .   |   /   |   =   |
-              |     | CAPS | DEL  | TAB  | NAV/BS |  | SYM/SP| ESC  | RET   |       |       |
+|   -   |  Z  |  X  |  C   |  V   |  B   | MO(TB)|  | SL(OB)|  N   |  M    |  ,    |  .   |   /   |   =   |
+              |     | NONE | DEL  | ESC  | NAV/BS |  | SYM/SP| RET  | CAPS |       |       |
 ```
 * **Home Row Mods:** Left (`ALT`, `GUI`, `CTRL`, `SHIFT`), Right (`SHIFT`, `CTRL`, `GUI`, `ALT`)
 * **Center Keys:** Hold Left Center for `MOUSE` layer. Tap Right Center for `OBSCURE` sticky layer.
