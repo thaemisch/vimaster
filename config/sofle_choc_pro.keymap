@@ -27,7 +27,7 @@
             tap-ms = <10>;
             bindings = <&macro_tap &kp LC(LS(U)) &kp E &kp N4 &kp SPACE>;
         };
-        uc_AE: uc_AE {
+        uc_upper_ae: uc_upper_ae {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
@@ -41,7 +41,7 @@
             tap-ms = <10>;
             bindings = <&macro_tap &kp LC(LS(U)) &kp F &kp N6 &kp SPACE>;
         };
-        uc_OE: uc_OE {
+        uc_upper_oe: uc_upper_oe {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
@@ -55,7 +55,7 @@
             tap-ms = <10>;
             bindings = <&macro_tap &kp LC(LS(U)) &kp F &kp C &kp SPACE>;
         };
-        uc_UE: uc_UE {
+        uc_upper_ue: uc_upper_ue {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
@@ -69,7 +69,7 @@
             tap-ms = <10>;
             bindings = <&macro_tap &kp LC(LS(U)) &kp D &kp F &kp SPACE>;
         };
-        uc_SS: uc_SS {
+        uc_upper_ss: uc_upper_ss {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
@@ -134,25 +134,25 @@
         mm_ae: mm_ae {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&uc_ae>, <&uc_AE>;
+            bindings = <&uc_ae>, <&uc_upper_ae>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mm_oe: mm_oe {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&uc_oe>, <&uc_OE>;
+            bindings = <&uc_oe>, <&uc_upper_oe>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mm_ue: mm_ue {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&uc_ue>, <&uc_UE>;
+            bindings = <&uc_ue>, <&uc_upper_ue>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mm_ss: mm_ss {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&uc_ss>, <&uc_SS>;
+            bindings = <&uc_ss>, <&uc_upper_ss>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
