@@ -173,13 +173,13 @@
             // | GRAVE |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   |   \   |
             // |   :   |  A  |  S  |  D   |  F   |  G   |                   |  H   |  J    |  K    |  L   |   ;   |   '   |
             // | MINUS |  Z  |  X  |  C   |  V   |  B   | MO(TB)|  | SL(OB)|  N   |  M    |  ,    |  .   |   /   | EQUAL |
-            //               | NONE| NONE | DEL  | ESC  | NAV/BS |  | SYM/SP| RET  | CAPS | NONE | NONE  |
+            //               | NONE| NONE | DEL  |NAV/ESC| BSPC   |  | SPACE |SYM/RET| CAPS | NONE | NONE  |
             bindings = <
 &none      &kp N1       &kp N2       &kp N3        &kp N4        &kp N5                             &kp N6   &kp N7        &kp N8        &kp N9       &kp N0          &none
 &kp GRAVE  &kp Q        &kp W        &kp E         &kp R         &kp T                              &kp Y    &kp U         &kp I         &kp O        &kp P           &kp BSLH
 &kp COLON  &hml LALT A  &hml LGUI S  &hml LCTRL D  &hml LSHFT F  &kp G                              &kp H    &hmr RSHFT J  &hmr RCTRL K  &hmr RGUI L  &hmr RALT SEMI  &kp SQT
 &kp MINUS  &kp Z        &kp X        &kp C         &kp V         &kp B    &lt MOUSE TAB &sl OBSCURE &kp N    &kp M         &kp COMMA     &kp DOT      &kp FSLH        &kp EQUAL
-                        &none        &none         &kp DEL       &kp ESC  &lt NAV BSPC  &lt SYM SPACE &kp RET  &caps_word    &none         &none
+                        &none        &none         &kp DEL       &lt NAV ESC  &kp BSPC  &kp SPACE     &lt SYM RET  &caps_word    &none         &none
             >;
         };
 
