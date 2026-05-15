@@ -27,7 +27,7 @@
         compatible = "zmk,combos";
         combo_caps_word {
             timeout-ms = <50>;
-            key-positions = <16 19>;
+            key-positions = <17 18>;
             bindings = <&caps_word>;
         };
     };
@@ -256,14 +256,14 @@
         mouse_layer {
             display-name = "mouse";
             // ------------------------------------------------------------------------------------------------------------
-            // |       | FWD | BACK|SCR_U|SCR_D|      |                   |      |       |       |      |       |       |
             // |       |     |     |     |     |      |                   |      |       |       |      |       |       |
+            // |       | FWD | BACK|SCR_U|SCR_D|      |                   |      |       |       |      |       |       |
             // |       |     | MCLK| RCLK| LCLK|      |                   | LEFT | DOWN  |  UP   | RIGHT|       |       |
             // |       |     |     |     |     |      |        |  |       |      |       |       |      |       |       |
             //               |     |     |     |      |        |  |       |      |       |       |      |
             bindings = <
-&trans    &mkp MB5  &mkp MB4  &msc SCRL_UP  &msc SCRL_DOWN  &trans                      &trans         &trans          &trans          &trans           &trans  &trans
 &trans    &trans    &trans    &trans        &trans          &trans                      &trans         &trans          &trans          &trans           &trans  &trans
+&trans    &mkp MB5  &mkp MB4  &msc SCRL_UP  &msc SCRL_DOWN  &trans                      &trans         &trans          &trans          &trans           &trans  &trans
 &trans    &trans    &mkp MB3  &mkp MB2      &mkp MB1        &trans                      &mmv MOVE_LEFT &mmv MOVE_DOWN  &mmv MOVE_UP    &mmv MOVE_RIGHT  &trans  &trans
 &trans    &trans    &trans    &trans        &trans          &trans    &trans   &trans   &trans         &trans          &trans          &trans           &trans  &trans
                     &trans    &trans        &trans          &trans    &trans   &trans   &trans         &trans          &trans          &trans
